@@ -1,0 +1,63 @@
+/* ImageUpload.css */
+
+.upload-container {
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 50px auto; /* Center the form on the page */
+    padding: 20px; /* Add padding around the form */
+    border: 1px solid #ccc; /* Light border around the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #f9f9f9; /* Light background color */
+    text-align: center; /* Center text */
+}
+
+.upload-container h2 {
+    color: #333; /* Dark color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.upload-form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.upload-form input[type="text"],
+.upload-form input[type="file"] {
+    margin-bottom: 15px; /* Space between inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.upload-form input[type="text"]:focus,
+.upload-form input[type="file"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.upload-form button {
+    padding: 10px; /* Padding inside buttons */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for buttons */
+    background-color: #28a745; /* Green background color */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.upload-form button:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+
+/* Error message styles */
+.error-message {
+    color: #d9534f; /* Red color for error messages */
+    background-color: #f2dede; /* Light red background */
+    border: 1px solid #ebccd1; /* Border color matching the background */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Padding inside the error message */
+    margin-bottom: 15px; /* Space below the error message */
+    text-align: left; /* Align text to the left */
+    font-weight: bold; /* Bold text for emphasis */
+}
