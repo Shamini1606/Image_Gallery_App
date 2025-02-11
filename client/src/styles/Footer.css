@@ -1,0 +1,9 @@
+footer {
+  color: rgb(234, 233, 244);
+  background-color: rgb(145, 142, 142);
+  text-align: center;
+  padding: 1rem;
+  position: relative; /* Change from absolute to relative */
+  margin-top: auto; /* Pushes footer down */
+  width: 100%;
+}

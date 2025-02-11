@@ -1,21 +1,56 @@
-/* Navbar.css */
+
+
+/* styles/Navbar.css */
 
 nav {
-    background-color: #333; /* Dark background color */
-    padding: 10px; /* Padding around the navbar */
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-around; /* Space links evenly */
-    align-items: center; /* Center items vertically */
+  background-color: #0a7bde; 
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative; 
 }
 
 nav a {
-    color: white; /* White text color */
-    text-decoration: none; /* Remove underline from links */
-    padding: 10px 15px; /* Padding around links */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
 nav a:hover {
-    background-color: #555; /* Darker background on hover */
+  background-color: #5b31e2;
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative; 
+}
+
+.dropbtn {
+  background-color: transparent; 
+  color: white; 
+  border: none; 
+  cursor: pointer; 
+  padding: 10px 15px; 
+}
+
+.dropdown-content {
+  display: block; 
+  position: absolute; 
+  background-color: #8a7dc9; 
+  min-width: 160px; 
+  z-index: 1; 
+}
+
+.dropdown-content a {
+  color: white; 
+  padding: 12px 16px; 
+  text-decoration: none; 
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #173edc; 
 }

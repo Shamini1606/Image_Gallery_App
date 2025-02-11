@@ -1,4 +1,4 @@
-// imageController.js
+// controllers/imageController.js
 
 
 const Image = require('../models/Image');
