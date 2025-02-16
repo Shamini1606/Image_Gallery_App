@@ -29,7 +29,7 @@ router.post("/", verifyToken, upload.single("image"), uploadImage); // Ensure ve
 router.get("/", verifyToken, getImages);
 router.delete("/:id", verifyToken, deleteImage);
 
-const Image = require("./models/Image"); // Assuming you have an Image model
+const Image = require("../models/Image"); // Assuming you have an Image model
 // GET /api/images
 router.get("/images", async (req, res) => {
   try {

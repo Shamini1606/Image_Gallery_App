@@ -1,4 +1,3 @@
-// src/pages/ImageUpload.js
 import "../styles/ImageUpload.css"; // If it's inside a 'styles' folder
 
 import React, { useState } from "react"; // Import React and useState
@@ -61,4 +60,5 @@ const ImageUpload = () => {
     </div>
   );
 };
+
 export default ImageUpload;

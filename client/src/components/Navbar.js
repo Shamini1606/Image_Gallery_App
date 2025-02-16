@@ -15,10 +15,18 @@ const Navbar = () => {
 
   return (
     <nav>
-      <NavLink to="/home"><i className="fas fa-home"></i> Home</NavLink>
-      <NavLink to="/upload"><i className="fas fa-upload"></i> Upload Image</NavLink>
-      <NavLink to="/gallery"><i className="fas fa-images"></i> Gallery</NavLink>
-      <NavLink to="/auth"><i className="fas fa-user"></i> Login</NavLink>
+      <NavLink to="/home">
+        <i className="fas fa-home"></i> Home
+      </NavLink>
+      <NavLink to="/upload">
+        <i className="fas fa-upload"></i> Upload Image
+      </NavLink>
+      <NavLink to="/gallery">
+        <i className="fas fa-images"></i> Gallery
+      </NavLink>
+      <NavLink to="/">
+        <i className="fas fa-user"></i> Login
+      </NavLink>
       <div className="dropdown">
         <button onClick={toggleDropdown} className="dropbtn">
           <i className="fas fa-ellipsis-v"></i> More
@@ -28,12 +36,12 @@ const Navbar = () => {
             <NavLink to="/about" onClick={handleLinkClick}>
               <i className="fas fa-info-circle"></i> About
             </NavLink>
-            <NavLink to="/contact" onClick={handleLinkClick}>
+            {/* <NavLink to="/contact" onClick={handleLinkClick}>
               <i className="fas fa-envelope"></i> Contact
             </NavLink>
             <NavLink to="/help" onClick={handleLinkClick}>
               <i className="fas fa-question-circle"></i> Help
-            </NavLink>
+            </NavLink> */}
           </div>
         )}
       </div>

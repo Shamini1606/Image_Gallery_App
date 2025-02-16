@@ -1,38 +1,3 @@
-// // src/App.js
-
-// import React from "react";
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// import Auth from "./pages/Auth";
-// import ImageUpload from "./pages/ImageUpload";
-// import Navbar from "./components/Navbar";
-// import Home from "./pages/Home";
-// import ImageGallery from "./pages/ImageGallery";
-// import "./App.css";
-// import About from "./components/About";
-// import Contact from "./components/Contact";
-// import Help from "./components/Help";
-// import Footer from "./components/Footer";
-
-// const App = () => {
-//   return (
-//     <Router>
-//       <Navbar />
-//       <Routes>
-//         <Route path="/" element={<Auth />} />
-//         <Route path="/home" element={<Home />} />
-//         <Route path="/upload" element={<ImageUpload />} />
-//         <Route path="/gallery" element={<ImageGallery />} />
-//         <Route path="/about" element={<About />} /> {/* Change here */}
-//         <Route path="/contact" element={<Contact />} /> {/* Change here */}
-//         <Route path="/help" element={<Help />} /> {/* Change here */}
-//       </Routes>
-//       <Footer />
-//     </Router>
-//   );
-// };
-
-// export default App;
-
 // src/App.js
 
 import React from "react";
@@ -64,7 +29,7 @@ const App = () => {
         <Route path="/" element={<Auth />} />
         <Route path="/home" element={<Home />} />
         <Route path="/upload" element={<ImageUpload />} />
-        <Route path="/gallery" element={<ImageGallery />} />
+        <Route path="/images" element={<ImageGallery />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/help" element={<Help />} />
